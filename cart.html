@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header style="background-image: url('header-bg.jpg');">
+    <h1>Carrito</h1>
+    <a id="cart-icon" href="cart.html">Carrito (<span id="cart-count">0</span>) - Total: $<span id="cart-total">0.00</span></a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Hoteles</a></li>
+      <li><a href="meals.html">Comidas</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="cart">
+    <h2>Carrito de compras</h2>
+    <div id="cart-items">
+      <!-- Los elementos del carrito se añadirán dinámicamente aquí -->
+    </div>
+  </section>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; 2023</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>

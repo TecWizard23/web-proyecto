@@ -1,0 +1,185 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #cart-icon {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el menú de navegación */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* Estilos para hoteles */
+  .hotel {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .hotel:hover {
+    transform: scale(1.05);
+  }
+  
+  .hotel img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hotel h3 {
+    margin: 10px 0;
+  }
+  
+  .hotel p {
+    margin: 0;
+  }
+  
+  .hotel-links {
+    margin-top: 10px;
+  }
+  
+  .hotel-links a {
+    margin-right: 5px;
+  }
+  
+  /* Estilos para comidas */
+  .meal {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .meal:hover {
+    transform: scale(1.05);
+  }
+  
+  .meal img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .meal h3 {
+    margin: 10px 0;
+  }
+  
+  .meal p {
+    margin: 0;
+  }
+  
+  .meal-price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el carrito de compras */
+  #cart {
+    background-color: #f4f4f4;
+    padding: 40px;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  #cart p {
+    margin-bottom: 20px;
+  }
+  
+  #cart button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #cart button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /*Estilo para los logos*/
+  .social-media-icons img {
+    width: 30px; /* Cambia el valor para ajustar el ancho deseado */
+    height: auto; /* Permite mantener la proporción de aspecto de la imagen */
+  }
+  /*Cambio de fondo de la pagina*/
+  body {
+    background-image: url('img/Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

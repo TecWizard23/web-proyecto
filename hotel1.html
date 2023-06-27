@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header style="background-image: url('img/amazonas.jpg');">
+    <h1>Hotel 1</h1>
+    <a id="cart-icon" href="cart.html">Carrito (<span id="cart-count">230</span>)</a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Hoteles</a></li>
+      <li><a href="meals.html">Comidas</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="hotel-details">
+    <h2>Tapacare Resort</h2>
+    <img src="img/Hoteles/Hotel1-1.jpg" width="1200" alt="Hotel 1">
+    <p>Tapacare Resort ofrece alojamientos en Trinidad y alberga una piscina exterior y un restaurante. Dispone de conexión Wi-Fi gratuita. Se encuentra frente a la laguna Suárez. Las habitaciones tienen aire acondicionado, baño privado y TV por cable. Algunas también disponen de minibar. El desayuno buffet diario está incluido en la tarifa.</p>
+    <div class="hotel-links">
+      <a href="https://facebook.com/hotel1" target="_blank"><img src="img/redes/facebook.png" width="60" alt="Facebook"></a>
+      <a href="https://twitter.com/hotel1" target="_blank"><img src="img/redes/twitter.png" width="60"alt="Twitter"></a>
+      <a href="https://instagram.com/hotel1" target="_blank"><img src="img/redes/instagram.png" width="60" alt="Instagram"></a>
+    </div>
+    <button onclick="addToCart('Hotel 1')">Agregar al carrito</button>
+  </section>
+  <section id="meals">
+    <h2>Comidas</h2>
+    <div class="meal">
+      <img src="img/meal/meal1.jpg"  alt="Comida 1">
+      <div class="meal-details">
+        <h3>Chancho a la cruz</h3>
+        <p class="meal-price">70Bs</p>
+      </div>
+    </div>
+    <div class="meal">
+      <img src="img/meal/meal2.jpg" alt="Comida 2">
+      <div class="meal-details">
+        <h3>Pique Macho</h3>
+        <p class="meal-price">80Bs</p>
+      </div>
+    </div>
+    <div class="meal">
+      <img src="img/meal/meal3.jpg" alt="Comida 3">
+      <div class="meal-details">
+        <h3>Papas a la huancaina</h3>
+        <p class="meal-price">35Bs</p>
+      </div>
+    </div>
+    <div class="meal">
+      <img src="img/meal/meal4.jpg" alt="Comida 4">
+      <div class="meal-details">
+        <h3>Chairo</h3>
+        <p class="meal-price">25Bs</p>
+      </div>
+    </div>
+    <div class="meal">
+      <img src="img/meal/meal5.jpg" alt="Comida 5">
+      <div class="meal-details">
+        <h3>Charkekan</h3>
+        <p class="meal-price">35Bs</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
+<footer>
+  <p>Todos los derechos reservados al grupo DEV&copy; 2023</p>
+</footer>
